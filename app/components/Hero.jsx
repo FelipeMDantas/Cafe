@@ -4,7 +4,11 @@ import Separator from "./Separator";
 const Hero = () => {
   return (
     <section className="h-[80vh] xl:h-screen relative text-white">
-      <div className="bg-hero-overlay absolute w-full h-full z-10 bg-primary/[0.93]" />
+      <div
+        className="bg-hero-overlay absolute w-full h-full z-10 bg-primary/[0.93]"
+        data-scroll
+        data-scroll-speed="0.4"
+      />
       <video
         autoPlay
         loop
