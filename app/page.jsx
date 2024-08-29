@@ -3,6 +3,8 @@
 import { useEffect } from "react";
 import Hero from "./components/Hero";
 import Explore from "./components/Explore";
+import About from "./components/About";
+import Menu from "./components/Menu";
 
 const Home = () => {
   useEffect(() => {
@@ -18,6 +20,8 @@ const Home = () => {
     <div className=" h-full overflow-x-hidden">
       <Hero />
       <Explore />
+      <About />
+      <Menu />
       <div className="h-[4000px]"></div>
     </div>
   );
