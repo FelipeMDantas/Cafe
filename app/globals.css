@@ -28,3 +28,8 @@
     font-semibold tracking-[.15em] transition-all;
   }
 }
+
+.swipper-button-next::after,
+.swipper-button-prev::after {
+  @apply text-primary text-[2rem];
+}
