@@ -74,9 +74,7 @@ const Menu = () => {
             <Separator bg="accent" />
           </div>
           <p className="text-center max-w-[620px] mx-auto">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita
-            adipisci alias laudantium impedit deleniti quis eos odio explicabo
-            quo sapiente!
+            Experience a World of Flavors where every Sip is a Delight
           </p>
         </div>
         <div className="flex flex-col items-center gap-12 xl:gap-24">

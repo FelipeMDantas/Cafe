@@ -16,6 +16,7 @@ const Explore = () => {
                     src="/assets/explore/icons/coffee-1.svg"
                     width={56}
                     height={56}
+                    alt=""
                   />
                 </div>
                 <h3 className="text-3xl xl:text-4xl font-primary font-bold mb-4">
@@ -36,6 +37,7 @@ const Explore = () => {
                     src="/assets/explore/icons/coffee-2.svg"
                     width={56}
                     height={56}
+                    alt=""
                   />
                 </div>
                 <h3 className="text-3xl xl:text-4xl font-primary font-bold mb-4">
@@ -59,6 +61,7 @@ const Explore = () => {
                 priority
                 data-scroll
                 data-scroll-speed="0.1"
+                alt=""
               />
             </div>
           </div>
@@ -73,6 +76,7 @@ const Explore = () => {
                     src="/assets/explore/icons/coffee-3.svg"
                     width={56}
                     height={56}
+                    alt=""
                   />
                 </div>
                 <h3 className="text-3xl xl:text-4xl font-primary font-bold mb-4">
@@ -93,6 +97,7 @@ const Explore = () => {
                     src="/assets/explore/icons/coffee-4.svg"
                     width={56}
                     height={56}
+                    alt=""
                   />
                 </div>
                 <h3 className="text-3xl xl:text-4xl font-primary font-bold mb-4">

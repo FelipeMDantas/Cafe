@@ -17,7 +17,12 @@ const Header = () => {
             href="/"
             className="relative w-[100px] h-[40px] xl:w-[120px] z-[60] "
           >
-            <Image src="/assets/logo.svg" fill className="object-contain" />
+            <Image
+              src="/assets/logo.svg"
+              fill
+              className="object-contain"
+              alt=""
+            />
           </Link>
           <button
             className="w-8 h-6 text-accent relative flex items-center justify-center z-[60] outline-none"

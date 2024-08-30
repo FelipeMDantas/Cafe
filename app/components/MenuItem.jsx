@@ -10,6 +10,7 @@ const MenuItem = ({ imgSrc, name, description, price }) => {
           priority
           quality={100}
           className="object-cover"
+          alt=""
         />
       </div>
       <div className="flex flex-col flex-1 gap-2">

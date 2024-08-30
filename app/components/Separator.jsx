@@ -8,7 +8,7 @@ const Separator = ({ bg = "white" }) => {
 
   return (
     <div className="relative w-[168px] h-[26px] mx-auto">
-      <Image src={imgSrc} fill />
+      <Image src={imgSrc} fill alt="" />
     </div>
   );
 };

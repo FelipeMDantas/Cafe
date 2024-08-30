@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Badge from "./Badge";
+import Separator from "./Separator";
 
 const OpeningHours = () => {
   return (
@@ -12,6 +13,7 @@ const OpeningHours = () => {
           quality={100}
           priority
           className="object-cover"
+          alt=""
         />
         <Badge containerStyles="w-[320px] h-[320px] absolute z-40" />
       </div>
@@ -20,8 +22,19 @@ const OpeningHours = () => {
         relative`}
       >
         <div className="w-full h-full absolute z-10 top-0 bg-black/[0.85]" />
-        <div className="z-20">
+        <div className="z-20 flex flex-col items-center justify-center">
           <h2 className="h2 text-white mb-4">Opening Hours</h2>
+          <Separator bg="accent" />
+          <div className="mt-12 relative w-[300px] h-[220px] xl:w-[470px] xl:h-[280px]">
+            <Image
+              src="/assets/opening-hours/program-badge.svg"
+              fill
+              className="object-contain"
+              quality={100}
+              priority
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </section>
