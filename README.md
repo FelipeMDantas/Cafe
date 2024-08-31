@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Cafe
 
-## Getting Started
+## A very stylish and pleasant coffee shop landing page
 
-First, run the development server:
+![Felipe|Cafe](https://img.shields.io/badge/FelipeMDantas-Cafe-brown)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Framer](https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+> This web application implements smooth animations, fine fonts, and charming images to present a varied coffee menu.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Take a look at the page
 
-## Learn More
+<img src = gif/page_gif.gif>
 
-To learn more about Next.js, take a look at the following resources:
+### or... give it a try!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+https://cafe-roan.vercel.app/
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Tech
 
-## Deploy on Vercel
+A couple of technologies were employed in this project. Among them:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [NextJS] - a React framework that gives you building blocks to create web applications
+- [FramerMotion] - a production-ready motion library for React
+- [React Router DOM] - DOM bindings for React Router
+- [GSAP] - a JavaScript animation library
+- [Locomotive Scroll] - a JavaScript library that provides scrolling animations and scroll interactions for web applications
+- [React Icons] - a dependecy that helps to include popular icons in React projects
+- [Swiper] - provides a touch slider
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+  [nextjs]: https://nextjs.org/
+  [framermotion]: https://www.framer.com/motion/
+  [react router dom]: https://reactrouter.com/
+  [gsap]: https://gsap.com/
+  [locomotive scroll]: https://github.com/locomotivemtl/locomotive-scroll/tree/v5-beta
+  [react icons]: https://react-icons.github.io/react-icons/
+  [swiper]: https://swiperjs.com/
